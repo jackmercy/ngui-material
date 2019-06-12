@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'ngui-ngui-lib',
@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
       ngui-lib works!
     </p>
   `,
-  styles: []
+  styleUrls: ['../assets/src/styles/styles.material.scss'],
+  encapsulation: ViewEncapsulation.None
 })
 export class NguiLibComponent implements OnInit {
 

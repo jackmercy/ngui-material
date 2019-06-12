@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NguiLibModule } from 'ngui-lib';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
     declarations: [
@@ -10,7 +11,8 @@ import { NguiLibModule } from 'ngui-lib';
     ],
     imports: [
         BrowserModule,
-        NguiLibModule
+        NguiLibModule,
+        BrowserAnimationsModule
     ],
     providers: [],
     bootstrap: [AppComponent]
